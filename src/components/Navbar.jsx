@@ -36,10 +36,8 @@
 
 // export default Navbar
 
-
 import React, { useState, useEffect } from 'react';
 import { HiMenuAlt2 } from 'react-icons/hi';
-
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -66,7 +64,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center p-4">
         {/* Logo (Hidden on Small Devices) */}
         <h1 className="text-2xl font-bold text-gray-800 dark:text-white hidden md:block">
-          <a href="/portfolio/">Vj</a>
+          <a href="/portfolio">Vj</a>
         </h1>
 
         {/* Hamburger Menu Button (Visible on Small Screens) */}
@@ -74,10 +72,8 @@ const Navbar = () => {
           onClick={toggleMenu}
           className="md:hidden p-2 rounded bg-gray-800 focus:outline-none"
         >
-        <HiMenuAlt2 className='text-white'/>
+          <HiMenuAlt2 className="text-white" />
         </button>
-
-
 
         {/* Navigation (Hidden on Small Screens) */}
         <nav className="hidden md:flex space-x-4">
@@ -93,7 +89,11 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="https://drive.google.com/file/d/1uMVuNJJu9SY613OCwHitOzcqa81DJ1L2/view" target='_blank' className="hover:text-blue-500">
+              <a
+                href="https://drive.google.com/file/d/1uMVuNJJu9SY613OCwHitOzcqa81DJ1L2/view"
+                target="_blank"
+                className="hover:text-blue-500"
+              >
                 Resume
               </a>
             </li>
@@ -127,7 +127,10 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="https://drive.google.com/file/d/1uMVuNJJu9SY613OCwHitOzcqa81DJ1L2/view" className="hover:text-blue-500">
+              <a
+                href="https://drive.google.com/file/d/1uMVuNJJu9SY613OCwHitOzcqa81DJ1L2/view"
+                className="hover:text-blue-500"
+              >
                 Resume
               </a>
             </li>
@@ -140,7 +143,7 @@ const Navbar = () => {
         </div>
       )}
     </header>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
