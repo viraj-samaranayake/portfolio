@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { FaGithub, FaLinkedinIn, FaPhoneAlt } from 'react-icons/fa';
 import { SiGmail, SiX } from 'react-icons/si';
 

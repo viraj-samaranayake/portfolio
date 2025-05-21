@@ -1,8 +1,7 @@
-import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { FaDownload, FaEnvelope, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
-import { IoIosArrowDropupCircle } from 'react-icons/io';
+
 
 const Hero = () => {
 
@@ -10,10 +9,10 @@ const Hero = () => {
     <section
       id="hero"
       className="flex flex-col items-center justify-center h-screen bg-cover bg-gray-100 dark:bg-gray-800"
-      style={{ backgroundImage: "url('src/assets/hero-bg.jpg')" }}
+      style={{ backgroundImage: "url('https://drive.google.com/uc?export=view&id=1-Lhg5BLKLYKPd0Z6RpNN1FR_-n4VFTz7')" }}
     >
       <h1 className="text-4xl text-gray-200 md:text-6xl font-bold mb-4">
-        Hello👋, I'm <span className="text-blue-400">Viraj</span>
+        Hello👋, I&apos;m <span className="text-blue-400">Viraj</span>
       </h1>
       <p className="text-xl text-gray-200 md:text-2xl font-semibold mb-2">& a</p>
       <p className="text-xl text-gray-200 md:text-2xl font-light mb-6">

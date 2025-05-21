@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaGithub } from 'react-icons/fa'; // Importing GitHub icon from react-icons
 
 const Projects = () => {
@@ -10,7 +9,7 @@ const Projects = () => {
 
           {/* Project 1 */}
           <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
-            <img src="/src/assets/project1.png" alt="Project 1" className="w-full h-48 object-cover" />
+            <img src="src/assets/project1.png" alt="Project 1" className="w-full h-48 object-cover" />
             <div className="p-4">
               <h4 className="text-xl font-semibold text-gray-800 dark:text-white">Open Cart Web application - Automation</h4>
               <p className="text-gray-600 dark:text-gray-300 mt-2">Java | Selenium WebDriver | TestNG | Extent Reports</p>

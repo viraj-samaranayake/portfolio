@@ -36,7 +36,7 @@
 
 // export default Navbar
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { HiMenuAlt2 } from 'react-icons/hi';
 
 const Navbar = () => {
@@ -95,6 +95,11 @@ const Navbar = () => {
                 className="hover:text-blue-500"
               >
                 Resume
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className="hover:text-blue-500">
+                Contact
               </a>
             </li>
           </ul>
