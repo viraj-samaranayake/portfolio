@@ -11,7 +11,7 @@ const Projects = () => {
           {/* Project 1 */}
           <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
             <img
-              src="./assets/Project1.png"
+              src=".public/assets/project1.png"
               alt="Project 1"
               className="w-full h-48 object-cover"
             />
