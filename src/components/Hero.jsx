@@ -9,7 +9,8 @@ const Hero = () => {
     <section
       id="hero"
       className="flex flex-col items-center justify-center h-screen bg-cover bg-gray-100 dark:bg-gray-800"
-      style={{ backgroundImage: "url('https://drive.google.com/uc?export=view&id=1-Lhg5BLKLYKPd0Z6RpNN1FR_-n4VFTz7')" }}
+      style={{ backgroundImage: "url('/assets/hero-bg.jpg')" }}
+
     >
       <h1 className="text-4xl text-gray-200 md:text-6xl font-bold mb-4">
         Hello👋, I&apos;m <span className="text-blue-400">Viraj</span>
