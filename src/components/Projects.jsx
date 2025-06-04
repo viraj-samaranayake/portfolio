@@ -1,5 +1,10 @@
-import { FaGithub } from 'react-icons/fa'; // Importing GitHub icon from react-icons
-import project1 from 'public/assets/project1.png';
+import { FaGithub } from 'react-icons/fa';
+import project1 from '/assets/project1.png';
+import project2 from '/assets/project2.png';
+import project3 from '/assets/project3.png';
+import project4 from '/assets/project4.png';
+import project5 from '/assets/project5.png';
+import project6 from '/assets/project6.png';
 
 const Projects = () => {
   return (
@@ -41,7 +46,7 @@ const Projects = () => {
           {/* Project 2 */}
           <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
             <img
-              src="src/assets/project2.png"
+              src={project2}
               alt="Project 2"
               className="w-full h-48 object-cover"
             />
@@ -69,7 +74,7 @@ const Projects = () => {
           {/* Project 3 */}
           <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
             <img
-              src="src/assets/project3.png"
+              src={project3}
               alt="Project 3"
               className="w-full h-48 object-cover"
             />
@@ -97,7 +102,7 @@ const Projects = () => {
           {/* Project 4 */}
           <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
             <img
-              src="src/assets/project4.png"
+              src={project4}
               alt="Project 4"
               className="w-full h-48 object-cover"
             />
@@ -125,7 +130,7 @@ const Projects = () => {
           {/* Project 5 */}
           <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
             <img
-              src="src/assets/project5.png"
+              src={project5}
               alt="Project 5"
               className="w-full h-48 object-cover"
             />
@@ -153,7 +158,7 @@ const Projects = () => {
           {/* Project 6 */}
           <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
             <img
-              src="src/assets/project6.png"
+              src={project6}
               alt="Project 6"
               className="w-full h-48 object-cover"
             />
