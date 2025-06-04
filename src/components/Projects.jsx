@@ -1,4 +1,5 @@
 import { FaGithub } from 'react-icons/fa'; // Importing GitHub icon from react-icons
+import project1 from 'public/assets/project1.png';
 
 const Projects = () => {
   return (
@@ -11,7 +12,7 @@ const Projects = () => {
           {/* Project 1 */}
           <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
             <img
-              src="https://github.com/viraj-samaranayake/portfolio/blob/main/src/assets/project1.png"
+              src={project1}
               alt="Project 1"
               className="w-full h-48 object-cover"
             />
