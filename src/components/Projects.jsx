@@ -5,6 +5,8 @@ import project3 from '/assets/project3.png';
 import project4 from '/assets/project4.png';
 import project5 from '/assets/project5.png';
 import project6 from '/assets/project6.png';
+import project7 from '/assets/project7.png';
+import project8 from '/assets/project8.png';
 
 const Projects = () => {
   return (
@@ -13,7 +15,7 @@ const Projects = () => {
         <h3 className="text-3xl font-bold text-gray-800 text-center dark:text-white mb-8">
           Projects
         </h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Project 1 */}
           <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
             <img
@@ -182,6 +184,63 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
+          {/* Project 7 */}
+          <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
+            <img
+              src={project7}
+              alt="Project 6"
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-4">
+              <h4 className="text-xl font-semibold text-gray-800 dark:text-white">
+                MegaCity-Cabs Online Cab Reservation App
+              </h4>
+              <p className="text-gray-600 dark:text-gray-300 mt-2">
+                Java SpringBoot | React JS | Tailwind CSS | MongoDB
+              </p>
+              <div className="mt-4">
+                <span className="mx-2">|</span>
+                <a
+                  href="https://github.com/viraj-samaranayake/online-vehicle-booking-system"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:underline"
+                >
+                  GitHub <FaGithub className="inline-block ml-1" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Project 8 */}
+          <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
+            <img
+              src={project8}
+              alt="Project 6"
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-4">
+              <h4 className="text-xl font-semibold text-gray-800 dark:text-white">
+                MegaCity-Cabs Online Cab Web Automation
+              </h4>
+              <p className="text-gray-600 dark:text-gray-300 mt-2">
+                Java | Selenium | Maven
+              </p>
+              <div className="mt-4">
+                <span className="mx-2">|</span>
+                <a
+                  href="https://github.com/viraj-samaranayake/megacitycab-automation-testing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:underline"
+                >
+                  GitHub <FaGithub className="inline-block ml-1" />
+                </a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
