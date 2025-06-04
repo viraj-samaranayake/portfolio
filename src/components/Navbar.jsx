@@ -85,7 +85,7 @@ const Navbar = () => {
             </li>
             <li>
               <a href="#projects" className="hover:text-blue-500">
-                Portfolio
+                Projects
               </a>
             </li>
             <li>
