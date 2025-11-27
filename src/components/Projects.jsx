@@ -2,11 +2,12 @@ import { FaGithub } from 'react-icons/fa';
 import project1 from '/assets/project1.png';
 import project2 from '/assets/project2.png';
 import project3 from '/assets/project3.png';
-import project4 from '/assets/project4.png';
+import project4 from '/assets/project9.png';
 import project5 from '/assets/project5.png';
 import project6 from '/assets/project6.png';
 import project7 from '/assets/project7.png';
 import project8 from '/assets/project8.png';
+
 
 const Projects = () => {
   return (
@@ -101,7 +102,9 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Project 4 */}
+
+                      
+        {/* Project 4 */}
           <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
             <img
               src={project4}
@@ -110,15 +113,15 @@ const Projects = () => {
             />
             <div className="p-4">
               <h4 className="text-xl font-semibold text-gray-800 dark:text-white">
-                Restaurant App
+                LearnCey Online Learning Platform
               </h4>
               <p className="text-gray-600 dark:text-gray-300 mt-2">
-                Front End | React JS | Tailwind CSS
+                MERN Stack MVC Web Application |React|Express|Node|MongoDB
               </p>
               <div className="mt-4">
                 <span className="mx-2">|</span>
                 <a
-                  href="https://viraj-samaranayake.github.io/food-app/"
+                  href="https://github.com/viraj-samaranayake/final-project"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:underline"
@@ -128,6 +131,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
+
 
           {/* Project 5 */}
           <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
@@ -240,7 +244,6 @@ const Projects = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
