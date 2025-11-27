@@ -161,6 +161,38 @@ const Projects = () => {
             </div>
           </div>
 
+
+
+          {/* Project 5 */}
+          <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
+            <img
+              src={project5}
+              alt="Project 5"
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-4">
+              <h4 className="text-xl font-semibold text-gray-800 dark:text-white">
+                Online Car Rental Application
+              </h4>
+              <p className="text-gray-600 dark:text-gray-300 mt-2">
+                PHP | HTML & CSS | JavaScript | MySQL
+              </p>
+              <div className="mt-4">
+                <span className="mx-2">|</span>
+                <a
+                  href="https://github.com/viraj-samaranayake/Online-Car-Rental-System"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:underline"
+                >
+                  GitHub <FaGithub className="inline-block ml-1" />
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+
           {/* Project 6 */}
           <div className="bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden transition-transform hover:scale-105">
             <img
